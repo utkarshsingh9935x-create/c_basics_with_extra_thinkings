@@ -17,13 +17,13 @@ int main(){
     if(num==1){
         printf("enter the value  in fahrenheit i will covert it into celcius\n");
         scanf("%f",&f);
-        c=(f-32)*5/9;
+        c=(f-32)*5/9.0;
         printf("the value in celcius is %.3f\n",c);
     }
         else if(num==2){
             printf("enter the value in celcius and i will covert it into fahrenheit-\n");
             scanf("%f",&c);
-            f=(c*9/5)+32;
+            f=(c*9/5.0)+32;
 
             printf("the value in fahrenheit is %.3f\n",f);
         }
