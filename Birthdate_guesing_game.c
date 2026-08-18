@@ -1,4 +1,4 @@
- birthdate guesing game for single player.
+// birthdate guesing game for single player.
 
 
 #include <stdio.h>
