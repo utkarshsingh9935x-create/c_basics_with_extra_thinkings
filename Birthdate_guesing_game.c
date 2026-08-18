@@ -22,6 +22,7 @@ if (date<1 || date>31){
 }
 if(guess==date){
     printf("That's the correct guess\n");
+    printf("you took %d attemps to guess\n",tries);
 }
 
 else if(guess<date){
